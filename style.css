@@ -1,0 +1,231 @@
+html {
+  scroll-behavior: smooth;
+  height:100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 18px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 0 20px;
+  padding-bottom: 28px;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 30%;
+  padding: 6px 20px;
+  font-family: inherit;
+  font-size: 14px;
+  background: none;
+  resize: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline-color: #172003;
+}
+
+select {
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.main{
+  padding: 0 15px;
+}
+
+.main-index {
+  padding-bottom: 10px;
+}
+
+.grid {
+  align-items: center;
+}
+
+@media screen and (max-width: 799px)
+
+.desktop-wrapper {
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+}
+.section1-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 25px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.input-section {
+  display: grid;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.colls {
+  display: grid;
+  gap: 16px;
+}
+
+.name {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: black;
+}
+
+.section3-holder {
+  display: grid;
+  gap: 10px;
+}
+
+.section2-message {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section2-messagelabels {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  font-size: 14px;
+  color: black;
+}
+
+.section2-messagelabels p {
+  font-size: 12px;
+  color: #ecc2db;
+}
+
+.section2-selectpattern {
+  display: grid;
+  align-content: center;
+  gap: 6px;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.labels p {
+  color: #005c65;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  justify-content: space-between;
+}
+
+.action2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.refresh {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.redactnow-btn {
+  background-color: #683526;
+  border: none;
+  width: 150px;
+  height: 65px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 20x;
+  color: #adebf0;
+  font-weight: 500;
+  cursor: pointer;
+  display: grid;
+  font-family: inherit;
+  place-content: center;
+}
+
+.redactnow-btn2 {
+  width: 200px;
+}
+
+.redactnow-btn:hover {
+  background: #bb5252;
+  color: #ff8c40;
+  outline: 1px solid #ff8c40;
+}
+
+.textbox {
+  min-height: 150px;
+  padding: 5px;
+  margin-bottom: 25px;
+  width: 300px;
+  font-size: 13px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.back {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.stat-head {
+  text-align: center;
+  margin-top: 37px;
+}
+
+.stat-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.stat-word {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#pattern-error {
+  color: red;
+  font-weight: 500;
+}
+.head {
+  text-align: center;
+}
+
+.content {
+  padding-top: 28px;
+}
+
+
+  body {
+    gap: 20px;
+  }
+  .my-2 {
+    margin-bottom: 20px;
+  }
